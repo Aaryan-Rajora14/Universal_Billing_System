@@ -350,6 +350,10 @@ def serve_qr(filename):
     return send_from_directory('static/qr_codes', filename)
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     import os
     port = int(os.environ.get('PORT', 5004))
     app.run(host='0.0.0.0', port=port, debug=False)
+=======
+    app.run(debug=True, port=5004)
+>>>>>>> ebace947f8595540f54b4a5166aac77498beb749
