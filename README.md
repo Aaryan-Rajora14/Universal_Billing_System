@@ -1,4 +1,4 @@
-# 🛒 Universal Billing System v3.2
+# 🛒 Universal Billing System v3.2 (OUTDATED)
 
 A fully responsive, production-ready billing system for **any store or service business**.  
 No tax calculations (items are pre-taxed), clean invoices, QR codes, Excel export, and 6 color themes.
