@@ -242,4 +242,4 @@ For a small store with low traffic, the free tier works great.
 
 *Universal Billing System v3.0 — Built with Flask, ReportLab, OpenPyXL*
 
-Note - A Major Security and Admin Login Feature is Coming.
+Note - A Major Security and Admin Login Feature has Arrived.
