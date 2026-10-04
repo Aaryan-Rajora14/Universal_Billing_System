@@ -302,12 +302,10 @@ def get_recent_bills():
     limit = request.args.get('limit', 5, type=int)
     bills = excel_manager.get_recent_bills(limit)
     return jsonify({'success': True, 'bills': bills})
-
 @app.route('/get_all_bills')
 def get_all_bills():
     bills = excel_manager.get_all_bills()
     return jsonify({'success': True, 'bills': bills})
-
 @app.route('/get_summary')
 def get_summary():
     summary = excel_manager.generate_summary_report()
